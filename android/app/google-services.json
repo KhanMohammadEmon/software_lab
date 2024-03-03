@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "212795678126",
+    "project_id": "campusassistant-2c38d",
+    "storage_bucket": "campusassistant-2c38d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212795678126:android:4e727d8c2e57759645bc3f",
+        "android_client_info": {
+          "package_name": "com.mycompany.campusassistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_ubp9rNNgZbYCBJmiUUacskdq169c87w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
