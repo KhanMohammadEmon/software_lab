@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyChnUga1obMqBT8l9wl9qN_-W7T1Nlq9bw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>212795678126</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mycompany.campusassistant</string>
+	<key>PROJECT_ID</key>
+	<string>campusassistant-2c38d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>campusassistant-2c38d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:212795678126:ios:000d5c2d19e9458845bc3f</string>
+</dict>
+</plist>
