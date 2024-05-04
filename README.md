@@ -1,6 +1,6 @@
 
 
-![](img/image.png)
+<img src="img/image.png" alt="Image Description" width="300" height="200">
 ## Team Master Molecules
 
 # Team Members
@@ -9,8 +9,6 @@
 3. MD Mehedi Hasan (011201292) 
 4. Khan Mohammad Emon (011201394)
 5. Nusrat Akter (011201407)
-
-
 
 
 ##  Introduction:
@@ -38,4 +36,4 @@ We plan to implement a video lecture library inside our app for the learning pla
 
 
 
-For full documentation visit ![](img/[Project Proposal Of Software Lab](https://github.com/KhanMohammadEmon/software_lab/blob/3e9e69aa568d92f4bf949adefbd9d1bd309f6b0a/img/Project%20Proposal%20Of%20Software%20Lab.docx))
+For full documentation visit ([Project Proposal Of Software Lab](https://github.com/KhanMohammadEmon/software_lab/blob/3e9e69aa568d92f4bf949adefbd9d1bd309f6b0a/img/Project%20Proposal%20Of%20Software%20Lab.docx))
