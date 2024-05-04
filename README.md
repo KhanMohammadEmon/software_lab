@@ -1,6 +1,7 @@
 ## Team Master Molecules
 
-<img src="img/image.png" alt="Image Description" width="300" height="200" style="display
+<img src="img/image.png" alt="Image Description" width="300" height="200" style="display: block; margin: auto;">
+
 
 
 
