@@ -1,11 +1,11 @@
-## Team Master Molecules
+# Team Master Molecules
 
 <img src="img/image.png" alt="Image Description" width="300" height="300" style="display: block; margin: auto;">
 
 
 
 
-# Team Members
+## Team Members
 1. Sayed Hossain Jobayer (011201062)
 2. Md Shaharia Hossen (011201288)
 3. MD Mehedi Hasan (011201292) 
