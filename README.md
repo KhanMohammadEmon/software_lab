@@ -1,7 +1,8 @@
-
-
-<img src="img/image.png" alt="Image Description" width="300" height="200">
 ## Team Master Molecules
+
+<img src="img/image.png" alt="Image Description" width="300" height="200" style="display
+
+
 
 # Team Members
 1. Sayed Hossain Jobayer (011201062)
