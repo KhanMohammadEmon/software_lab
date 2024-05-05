@@ -4,8 +4,6 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:provider/provider.dart';
 import 'h_ome_model.dart';
 export 'h_ome_model.dart';
 
@@ -42,7 +40,7 @@ class _HOmeWidgetState extends State<HOmeWidget> {
           : FocusScope.of(context).unfocus(),
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: Color(0xFFE6E6E6),
+        backgroundColor: const Color(0xFFE6E6E6),
         body: SafeArea(
           top: true,
           child: Stack(
@@ -53,15 +51,15 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Align(
-                        alignment: AlignmentDirectional(0.0, 0.0),
+                        alignment: const AlignmentDirectional(0.0, 0.0),
                         child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
+                          padding: const EdgeInsetsDirectional.fromSTEB(
                               0.0, 10.0, 0.0, 0.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     10.0, 0.0, 0.0, 0.0),
                                 child: FFButtonWidget(
                                   onPressed: () async {
@@ -77,21 +75,22 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                                   options: FFButtonOptions(
                                     width: 70.0,
                                     height: 40.0,
-                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                    padding: const EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 0.0, 0.0),
-                                    iconPadding: EdgeInsetsDirectional.fromSTEB(
+                                    iconPadding: const EdgeInsetsDirectional.fromSTEB(
                                         0.0, 0.0, 0.0, 0.0),
-                                    color: Color(0xFFB61F1F),
+                                    color: const Color(0xFFB61F1F),
                                     textStyle: FlutterFlowTheme.of(context)
                                         .titleSmall
                                         .override(
                                           fontFamily: 'Poppins',
                                           color: Colors.white,
                                           fontSize: 10.0,
+                                          letterSpacing: 0.0,
                                           fontWeight: FontWeight.w300,
                                         ),
                                     elevation: 3.0,
-                                    borderSide: BorderSide(
+                                    borderSide: const BorderSide(
                                       color: Colors.transparent,
                                       width: 1.0,
                                     ),
@@ -100,12 +99,12 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                                 ),
                               ),
                               Align(
-                                alignment: AlignmentDirectional(0.0, 0.0),
+                                alignment: const AlignmentDirectional(0.0, 0.0),
                                 child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                  padding: const EdgeInsetsDirectional.fromSTEB(
                                       30.0, 1.0, 0.0, 0.0),
                                   child: Text(
-                                    'Your Courses',
+                                    'Class Schedule',
                                     textAlign: TextAlign.center,
                                     style: FlutterFlowTheme.of(context)
                                         .bodyMedium
@@ -114,6 +113,7 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                                           color: FlutterFlowTheme.of(context)
                                               .primary,
                                           fontSize: 26.0,
+                                          letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
                                         ),
                                   ),
@@ -130,7 +130,7 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
+                                padding: const EdgeInsetsDirectional.fromSTEB(
                                     16.0, 15.0, 16.0, 0.0),
                                 child: StreamBuilder<List<UserCoursesRecord>>(
                                   stream: queryUserCoursesRecord(),
@@ -165,18 +165,21 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                                                   columnIndex];
                                           return Padding(
                                             padding:
-                                                EdgeInsetsDirectional.fromSTEB(
+                                                const EdgeInsetsDirectional.fromSTEB(
                                                     8.0, 10.0, 8.0, 5.0),
                                             child: Container(
                                               width: double.infinity,
                                               height: 110.0,
                                               decoration: BoxDecoration(
-                                                color: Color(0xFFE7B495),
-                                                boxShadow: [
+                                                color: const Color(0xFFE7B495),
+                                                boxShadow: const [
                                                   BoxShadow(
                                                     blurRadius: 4.0,
                                                     color: Color(0x33000000),
-                                                    offset: Offset(0.0, 2.0),
+                                                    offset: Offset(
+                                                      0.0,
+                                                      2.0,
+                                                    ),
                                                   )
                                                 ],
                                                 borderRadius:
@@ -186,7 +189,7 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                                                 children: [
                                                   Align(
                                                     alignment:
-                                                        AlignmentDirectional(
+                                                        const AlignmentDirectional(
                                                             -1.0, 0.0),
                                                     child: Column(
                                                       mainAxisSize:
@@ -197,7 +200,7 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                                                       children: [
                                                         Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       15.0,
                                                                       5.0,
@@ -215,12 +218,14 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                                                                   color: FlutterFlowTheme.of(
                                                                           context)
                                                                       .primaryText,
+                                                                  letterSpacing:
+                                                                      0.0,
                                                                 ),
                                                           ),
                                                         ),
                                                         Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       25.0,
                                                                       0.0,
@@ -230,12 +235,18 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                                                             'Time : ${columnUserCoursesRecord.coursestarttime} - ${columnUserCoursesRecord.courseendtime}',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
-                                                                .bodyMedium,
+                                                                .bodyMedium
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'Poppins',
+                                                                  letterSpacing:
+                                                                      0.0,
+                                                                ),
                                                           ),
                                                         ),
                                                         Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       25.0,
                                                                       0.0,
@@ -245,12 +256,18 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                                                             'Room No : ${columnUserCoursesRecord.courseroom}',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
-                                                                .bodyMedium,
+                                                                .bodyMedium
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'Poppins',
+                                                                  letterSpacing:
+                                                                      0.0,
+                                                                ),
                                                           ),
                                                         ),
                                                         Padding(
                                                           padding:
-                                                              EdgeInsetsDirectional
+                                                              const EdgeInsetsDirectional
                                                                   .fromSTEB(
                                                                       25.0,
                                                                       0.0,
@@ -260,7 +277,13 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                                                             'Days : ${columnUserCoursesRecord.coursedays}',
                                                             style: FlutterFlowTheme
                                                                     .of(context)
-                                                                .bodyMedium,
+                                                                .bodyMedium
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'Poppins',
+                                                                  letterSpacing:
+                                                                      0.0,
+                                                                ),
                                                           ),
                                                         ),
                                                       ],
@@ -268,7 +291,7 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                                                   ),
                                                   Align(
                                                     alignment:
-                                                        AlignmentDirectional(
+                                                        const AlignmentDirectional(
                                                             0.85, -0.06),
                                                     child: InkWell(
                                                       splashColor:
@@ -293,7 +316,7 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                                                           }.withoutNulls,
                                                         );
                                                       },
-                                                      child: Icon(
+                                                      child: const Icon(
                                                         Icons.settings_outlined,
                                                         color:
                                                             Color(0xFF540000),
@@ -315,12 +338,38 @@ class _HOmeWidgetState extends State<HOmeWidget> {
                           ),
                         ],
                       ),
+                      FFButtonWidget(
+                        onPressed: () async {
+                          context.pushNamed('UploadRegPDF');
+                        },
+                        text: 'Button',
+                        options: FFButtonOptions(
+                          height: 40.0,
+                          padding: const EdgeInsetsDirectional.fromSTEB(
+                              24.0, 0.0, 24.0, 0.0),
+                          iconPadding: const EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: FlutterFlowTheme.of(context).primary,
+                          textStyle:
+                              FlutterFlowTheme.of(context).titleSmall.override(
+                                    fontFamily: 'Poppins',
+                                    color: Colors.white,
+                                    letterSpacing: 0.0,
+                                  ),
+                          elevation: 3.0,
+                          borderSide: const BorderSide(
+                            color: Colors.transparent,
+                            width: 1.0,
+                          ),
+                          borderRadius: BorderRadius.circular(8.0),
+                        ),
+                      ),
                     ],
                   ),
                 ],
               ),
               Align(
-                alignment: AlignmentDirectional(0.0, 1.0),
+                alignment: const AlignmentDirectional(0.0, 1.0),
                 child: InkWell(
                   splashColor: Colors.transparent,
                   focusColor: Colors.transparent,
