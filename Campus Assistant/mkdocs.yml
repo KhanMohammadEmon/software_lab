@@ -1,0 +1,16 @@
+site_name: Campus Assistant
+theme:
+  name: readthedocs
+  palette:
+    primary: blue
+    accent: blue
+    background: white
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  code:
+    block: true
+    line_numbers: true
+    highlightjs: true
+    highlight_theme: 'github'
+  
